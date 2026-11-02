@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "bendiccovi-autoplan_jd432"
+name = "bendiccovi-tail_latency_jitter_budget_alloc"
 version = "0.1.0"
 description = "按给定权重把总额度分配到各项，报告超分配项与利用率"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://bendiccovi.github.io"
-Repository = "https://github.com/bendiccovi/autoplan_jd432"
-Issues = "https://github.com/bendiccovi/autoplan_jd432/issues"
+Repository = "https://github.com/bendiccovi/tail_latency_jitter_budget_alloc"
+Issues = "https://github.com/bendiccovi/tail_latency_jitter_budget_alloc/issues"
 
 [project.scripts]
-autoplan_jd432 = "autoplan_jd432:main"
+tail_latency_jitter_budget_alloc = "tail_latency_jitter_budget_alloc:main"
 
 [tool.setuptools]
-py-modules = ["autoplan_jd432"]
+py-modules = ["tail_latency_jitter_budget_alloc"]
